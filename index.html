@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SirMap</title>
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+rel="stylesheet"
+/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+    <div>
+        <nav>
+        <div class="container">
+             <div class="logo">
+                <img src="./imgs/logo.png" alt="">
+                <h4 class="text1">Age<h4 class="text2">Syrdarya</h4></h4>
+             </div>
+
+             <ul class="linkbox">
+                <li class="link1 link">Loyiha haqida</li>
+                <li class="link2 link">Infografika</li>
+                <li class="link3 link">Biz bilan bog’lanish</li>
+             </ul>
+
+             <button class="knopka" onclick="uzb()">Uzb<i class="fas fa-angle-down"></i></button>
+
+
+
+
+             <div class="til">
+
+                    <div class="till1 tilbox">
+                       <img src="./imgs/uzb.png" alt="" style="width: 30%; height: 2vh; margin-top: 10px;">
+                       <span class="fw-bold text-white">Uzb</span>
+                    </div>
+
+                    <div class="till2 tilbox">
+                      <img src="./imgs/Flag_of_Russia.svg.png" alt="" style="width: 30%; height: 2vh; margin-top: 10px;">
+                      <span class="fw-bold text-white">Rus</span>
+                    </div>
+
+                    <div class="till3 tilbox">
+                      <img src="./imgs/1920px-Flag_of_the_United_States.svg.png" alt="" style="width: 30%; height: 2vh; margin-top: 10px;">
+                      <span class="fw-bold text-white">Eng</span>
+                    </div>
+
+            </div>
+
+
+
+
+
+               <div class="icons">
+                   <i class="fab fa-instagram fa-2x"></i>
+                   <i class="fab fa-facebook-f fa-2x"></i>
+               </div>
+
+        </div>
+        </nav>
+
+
+</div>
+
+    
+<div class="position-relative">
+
+ 
+  
+  <iframe src="https://yandex.uz/maps/-/CCUG7VgdwA" frameborder="0" class="w-100" style="height: 79vh;"></iframe>
+  
+  
+  <div class="left">
+
+  <div class="ish1" onclick="left1()">
+    <i class="fas fa-angle-double-right  text-white lefticon" style="margin-top: 130px"></i>
+  </div>
+
+  <div class="ish2" onclick="left2()">
+    <i class="fas fa-angle-double-right  text-white lefticon2" style="margin-top: 130px"></i>
+  </div>
+
+  </div>
+  
+  
+  <div class="slider">
+   
+    <p class="p1">2022</p>
+
+
+
+    <input type="range" class="form-range" id="customRange1" oninput="num1.value = this.value" value="0" >
+  
+
+    <p class="p2">1920</p>
+
+    <output id="num1" style="color: white; margin-left: 18px; position: absolute; top: 5%;">0%</output>
+
+  </div>
+
+
+
+
+
+  <div class="slider2">
+   
+    <p class="p1">2022</p>
+
+
+
+    <input type="range" class="form-range" id="customRange1" oninput="num.value = this.value" value="100">
+    
+  
+
+    <p class="p2">1920</p>
+    <output id="num" style="color: white; margin-left: 18px; position: absolute; top: 5%;">0%</output>
+
+  </div>
+  
+  
+  
+
+  
+ 
+    </div>
+
+
+    <footer>
+        <ul class="linksbox1">
+             <li class="link4 linkb text-center active" >KO`CHA NOMLARI <i class="fas fa-power-off"></i></li>
+             <li class="link5 linkb text-center">DAVLAT TASHKILOTLARI <i class="fas fa-power-off"></i></li>
+             <li class="link6 linkb text-center">ARXITEKTURA MEROSLARI <i class="fas fa-power-off"></i></li>
+             <li class="link7 linkb text-center">ARXEOLOGIYA YODGORLIKLARI <i class="fas fa-power-off"></i></li>
+             <li class="link8 linkb text-center">KO`P QAVATLI UYLAR <i class="fas fa-power-off"></i></li>
+             <li class="link9 linkb text-center">AHOLI HONADONLARI <i class="fas fa-power-off"></i></li>
+        </ul>
+     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
